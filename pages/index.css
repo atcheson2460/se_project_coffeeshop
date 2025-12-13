@@ -99,7 +99,7 @@
   margin-bottom: 40px;
 }
 
-.header__footer_address {
+.header__footer-address {
   display: flex;
   justify-content: end;
   align-items: center;
