@@ -107,7 +107,16 @@
   margin-bottom: 0px;
 }
 
-.header__paragraph_hours {
+.header__paragraph-hours {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #6f6f6f;
+  margin-bottom: 0px;
+}
+
+.header__paragraph-address {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
