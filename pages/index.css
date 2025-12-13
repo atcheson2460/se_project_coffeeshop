@@ -99,7 +99,7 @@
   margin-bottom: 40px;
 }
 
-.address {
+.header__footer_address {
   display: flex;
   justify-content: end;
   align-items: center;
@@ -107,38 +107,13 @@
   margin-bottom: 0px;
 }
 
-.header__paragraph_1 {
+.header__paragraph_hours {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   color: #6f6f6f;
   margin-bottom: 0px;
-}
-
-.header__paragraph_2 {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  color: #6f6f6f;
-  margin-bottom: 0px;
-}
-
-.header__paragraph_3 {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  color: #6f6f6f;
-}
-
-.header__paragraph_4 {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  color: #6f6f6f;
 }
 
 .header__image {
