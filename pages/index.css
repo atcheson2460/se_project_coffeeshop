@@ -88,7 +88,6 @@
 }
 
 .header__footer {
-  margin-top: auto;
   gap: 5px;
   width: 100%;
   box-sizing: border-box;
@@ -96,15 +95,15 @@
   flex-direction: column;
   line-height: 0px;
   max-width: 1600px;
-  margin-bottom: 40px;
+  margin-bottom: 0px;
 }
 
 .header__footer-address {
   display: flex;
   justify-content: end;
   align-items: center;
-  margin: 0;
-  margin-bottom: 0px;
+  margin-bottom: 40px;
+  margin-right: 80px;
 }
 
 .header__paragraph-hours {
@@ -162,6 +161,7 @@
   display: flex;
   gap: 40px;
   margin-top: 80px;
+  justify-content: center;
 }
 
 .recipes__iframe {
@@ -172,7 +172,23 @@
 
 .recipes__video-caption {
   font-family: Inter, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
   font-size: 20px;
   line-height: 30px;
   margin-top: 24px;
+}
+
+.reservation {
+  padding: 100px 0 120px;
+}
+
+.reservation__title {
+  margin: 0 0 80px;
+  text-align: center;
+}
+
+.reservation__form {
+  display: flex;
+  flex-direction: column;
 }

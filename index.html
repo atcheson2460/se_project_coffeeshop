@@ -21,84 +21,145 @@
     />
   </head>
   <body>
-      <div class="page">
+    <div class="page">
       <header class="header">
         <nav class="nav">
-          <img class="nav__logo" src="./images/logo_coffeeshop_dark.svg" alt="Coffee Shop logo"  />
+          <img
+            class="nav__logo"
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="Coffee Shop logo"
+          />
 
           <ul class="nav__links">
-             <li><a class="nav__link" href="#recipes" >Recipes</a></li>
-             <li><a class="nav__link" href="#menu" >Menu</a></li>
-             <li><a class="nav__link" href="#reservation" >Book a table</a></li>
-             <li><a class="nav__link" href="#contacts" >Contacts</a></li>
+            <li><a class="nav__link" href="#recipes">Recipes</a></li>
+            <li><a class="nav__link" href="#menu">Menu</a></li>
+            <li><a class="nav__link" href="#reservation">Book a table</a></li>
+            <li><a class="nav__link" href="#contacts">Contacts</a></li>
           </ul>
         </nav>
+        <div class="header__content">
+          <span class="header__span-accent">Specialty coffee</span>
 
-<div class="header__content">
-  <span class="header__span-accent">Specialty coffee</span>
+          <h1 class="header__title">in the Triple Peaks Library</h1>
 
-  <h1 class="header__title">
-    in the Triple Peaks Library
-  </h1>
+          <p class="header__description">
+            Welcome to our study zone! We've got the coffee to energize you<br />
+            and the cozy vibes to help you get creative.
+          </p>
+        </div>
 
-  <p class="header__description">
-    Welcome to our study zone! We've got the coffee to energize you<br />
-    and the cozy vibes to help you get creative.
-  </p>
+        <div class="header__footer">
+          <p class="header__paragraph-hours">Hours:</p>
+          <p class="header__paragraph-hours">Monday - Friday (10:00 - 19:00)</p>
+          <p class="header__paragraph-hours">
+            Saturday - Sunday (11:00 - 18:00)
+          </p>
+        </div>
+        <div class="header__footer-address">
+          <span class="header__paragraph-address"
+            >200 Success Avenue, The Town of Triple Peaks</span
+          >
+        </div>
 
-<div class="header__footer">
- <p class="header__paragraph-hours">Hours:</p>
- <p class="header__paragraph-hours">Monday - Friday (10:00 - 19:00)</p>
- <p class="header__paragraph-hours">Saturday - Sunday (11:00 - 18:00)</p>
-<div class="header__footer-address">
-  <span class="header__paragraph-address">200 Success Avenue, The Town of Triple Peaks</span>
- </p>
-</div>
-
-  <img
-    src="../images/inside_coffee_shop.png"
-    alt="inside coffee shop"
-    class="header__image"
-  />
-</div>
+        <img
+          src="./images/inside_coffee_shop.png"
+          alt="inside coffee shop"
+          class="header__image"
+        />
       </header>
 
       <main class="content">
-        <section class="recipes">
-          <section class="recipes" id="recipes">
-  <h2 class="recipes__title">Recipes</h2>
+        <section class="recipes" id="recipes">
+          <h2 class="recipes__title">Recipes</h2>
+          <p class="recipes__subtitle">
+            Check out some recipes we've collected for your home-brewing
+            convenience:
+          </p>
 
-  <p class="recipes__subtitle">
-    Check out some recipes we've collected for your home-brewing convenience:
-  </p>
-
-  <div class="recipes__videos">
-    <div class="recipes__video">
-      <iframe
-        class="recipes__iframe"
-        src="https://www.youtube.com/embed/j6VlT_jUVPc"
-        allowfullscreen
-      ></iframe>
-      <p class="recipes__video-caption">Aeropress recipe ~5 min</p>
-    </div>
-
-    <div class="recipes__video">
-      <iframe
-        class="recipes__iframe"
-        src="https://www.youtube.com/embed/st571DYYTR8"
-        allowfullscreen
-      ></iframe>
-      <p class="recipes__video-caption">French press recipe ~15 min</p>
-    </div>
-  </div>
-</section>
+          <div class="recipes__videos">
+            <div class="recipes__video">
+              <iframe
+                class="recipes__iframe"
+                src="https://www.youtube.com/embed/j6VlT_jUVPc"
+                allowfullscreen
+              >
+              </iframe>
+              <p class="recipes__video-caption">Aeropress recipe ~5 min</p>
+            </div>
+            <div class="recipes__video">
+              <iframe
+                class="recipes__iframe"
+                src="https://www.youtube.com/embed/st571DYYTR8"
+                allowfullscreen
+              >
+              </iframe>
+              <p class="recipes__video-caption">French press recipe ~15 min</p>
+            </div>
+          </div>
         </section>
-        <section class="reservation"></section>
-        <section class="menu"></section>
+        <section class="reservation">
+          <h2 class="reservation__title">Book a table</h2>
+          <form class="reservation__form form">
+            <fieldset class="form__fieldset">
+              <label for="name-input" class="form__label">
+                Name *
+                <input
+                  type="text"
+                  class="form__input"
+                  id="name-input"
+                  required
+                  placeholder="Name Surname"
+                />
+              </label>
+              <label for="number-input" class="form__label">
+                Number of guests *
+                <input
+                  type="number"
+                  class="form__input"
+                  id="number-input"
+                  min="1"
+                  max="8"
+                  placeholder="1-8"
+                  required
+                />
+              </label>
+              <label for="date-input" class="form__label">
+                Date & Time *
+                <input
+                  type="datetime-local"
+                  class="form__input"
+                  id="date-input"
+                  required
+                />
+              </label>
+              <label for="email-input" class="form__label">
+                Your email *
+                <input
+                  type="email"
+                  class="form__input"
+                  id="email-input"
+                  placeholder="email@email.com"
+                  required
+                />
+              </label>
+            </fieldset>
+            <button class="form__button">Book a table</button>
+            <label for="input-checkbox" class="form__checkbox">
+              <input
+                type="checkbox"
+                class="form__input_checkbox"
+                id="input-checkbox"
+                required
+              />
+              I agree with the terms of use
+            </label>
+          </form>
+        </section>
+        <section class="menu">h</section>
         <section class="about"></section>
       </main>
 
-      <footer class="footer">
-      </footer>
+      <footer class="footer"></footer>
+    </div>
   </body>
 </html>
