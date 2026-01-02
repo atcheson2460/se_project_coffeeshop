@@ -14,12 +14,14 @@
 .nav__links {
   display: flex;
   gap: 40px;
+  margin: 0;
+  padding: 0;
   list-style: none;
   font-weight: 600;
 }
 
 .nav__link {
-  font-family: "Inter";
+  font-family: "Inter, Arial, Helvetica, sans-serif";
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
@@ -30,6 +32,6 @@
 }
 
 .nav__link:hover {
-  opacity: 50%;
+  opacity: 0.5;
   transition: ease-in 0.5s smooth;
 }

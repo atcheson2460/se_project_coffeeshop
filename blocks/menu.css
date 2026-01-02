@@ -4,7 +4,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-color: #ffffff;
-  height: 800px;
   padding: 100px 0;
   display: flex;
   flex-direction: column;
@@ -13,7 +12,7 @@
 
 .menu__title {
   max-width: 780px;
-  font-family: "Inter";
+  font-family: "Inter, Arial, Helvetica, sans-serif";
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
