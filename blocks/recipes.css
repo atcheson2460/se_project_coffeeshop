@@ -5,7 +5,7 @@
   background-position: center;
   background-repeat: no-repeat;
   color: #fff;
-  padding: 100px 80px;
+  padding: 100px 80px 215px;
 }
 
 .recipes__title {
@@ -13,7 +13,7 @@
   font-size: 44px;
   line-height: 52px;
   font-weight: 500;
-  margin-bottom: 24px;
+  margin: 0;
 }
 
 .recipes__subtitle {
@@ -43,4 +43,9 @@
   font-size: 20px;
   line-height: 30px;
   margin-top: 24px;
+  display: flex;
+}
+
+.recipes__video-divider {
+  flex-grow: 1;
 }

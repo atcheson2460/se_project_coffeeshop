@@ -20,7 +20,7 @@
 }
 
 .nav__link {
-  font-family: "Inter, Arial, Helvetica, sans-serif";
+  font-family: "Inter", "Arial", sans-serif;
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
@@ -32,5 +32,5 @@
 
 .nav__link:hover {
   opacity: 0.5;
-  transition: ease-in 0.5s smooth;
+  transition: opacity 0.3s ease-in-out;
 }
