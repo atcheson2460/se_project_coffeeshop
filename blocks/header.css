@@ -25,6 +25,8 @@
   line-height: 72px;
   color: #3f96f3;
   max-width: 729px;
+  display: flex;
+  flex-grow: 1;
 }
 
 .header__title {
