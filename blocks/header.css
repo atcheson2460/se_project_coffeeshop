@@ -1,0 +1,81 @@
+.header {
+  background-color: #ffffff;
+  background-image: url("../images/IMG_7930.JPG");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 800px;
+  position: relative;
+  padding: 30px 80px 40px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.header__span-accent {
+  font-family: "Kaushan Script", cursive;
+  font-style: italic;
+  font-size: 120px;
+  line-height: 72px;
+  color: orange;
+  max-width: 950px;
+  display: flex;
+  flex-grow: 1;
+}
+
+.header__title {
+  font-family: "Inter", "Arial", "sans-serif";
+  color: whitesmoke;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 80px;
+  letter-spacing: -0.6px;
+  margin-top: 70px;
+  margin-bottom: 0px;
+  max-width: 729px;
+  z-index: 3;
+}
+
+.header__description {
+  font-family: "Noto Serif", "arial", "sans-serif";
+  color: whitesmoke;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 28px;
+  margin-bottom: auto;
+  max-width: 683px;
+  z-index: 3;
+}
+
+.header__footer {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  max-width: 1600px;
+  margin-bottom: 0px;
+}
+
+.header__paragraph {
+  font-family: "Inter", "Arial", "sans-serif";
+  font-weight: 500;
+  font-size: 16px;
+  color: whitesmoke;
+  margin-bottom: 0px;
+  margin-top: 0;
+  line-height: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__image {
+  position: absolute;
+  right: 5px;
+  top: 80px;
+  width: 600px;
+  height: 600px;
+  z-index: 2;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
